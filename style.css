@@ -1,6 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "National Park", sans-serif;
+}
+
+body {
+  background-color: #fffcf2;
 }
 
 header {
@@ -20,13 +25,41 @@ header div {
 
 .introducao {
   text-align: center;
-  font-size: 12px;
 }
 
-.teste {
-  visibility:hidden;
+.introducao a {
+  font-size: 6px;
 }
 
-.teste:hover {
-  visibility: visible;
+.introducao div {
+  margin: 25px;
+  font-size: 15px;
+}
+
+.introducao div h2 {
+  font-size: 22px;
+}
+
+.body-txt {
+  text-align: center;
+  margin: 25px;
+  font-size: 15px;
+}
+
+.body-txt h2 {
+  font-size: 22px;
+}
+
+.body-txt a {
+  font-size: 6px;
+}
+
+footer {
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  background-color: #CFB612;
+  padding: 10px;
+  text-align: center;
 }
